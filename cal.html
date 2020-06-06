@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>calculator</title>
+
+<link type="text/css" rel="stylesheet" href="cal.css"/>
+</head>
+<body>
+<h1>SERVANT PAY CALCULATOR</h2>
+<h2>Always treat your servants with love!! &#10084</h2>
+
+
+<form class="fi">
+    <h3>LET'S CALCULATE!</h3>
+    <p>calculate dailyy/monthly</p>
+    <input type="radio" id="payway" name="PAY" value="payway" >
+    <label for="payway"> monthly </label><br>
+    <input type="radio" id="payway1" name="PAY" value="payway1">
+    <label for="payway1"> daily </label>
+    <p>Enter the hours of work:</p>
+    <label for="hours">hours:</label>
+    <input type="text" id="hours" value="0" min="1" max="24">
+    <p>work nature:</p>
+    <select id= "work">
+        <option>easy</option>
+        <option>medium</option>
+        <option>hard</option>
+    </select>
+    <p>total number of works assinged per day:</p>
+    <input type="number" id="ass" value="1">
+    <p>Do you want to add any bonus or tips?</p>
+    <input type="radio" id="yes" name="bonus">
+    <label for="yes">yes </label>
+    <input type="radio" id="no" name="bonus">
+    <label for="no">no </label>
+    <p>amount of money borrowed:</p>
+    <input type="text" id="bor"></input>
+    <p>Enter the amount you'd like to pay per work:</p>
+    <input type="text" id="amt">
+</form>
+</body>
+</html>
